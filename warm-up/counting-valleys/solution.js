@@ -38,7 +38,6 @@ function countingValleys(steps, path) {
     let sameValley = false;
 
     for(let i=0; i <= steps; i++){
-        debugger;
         let currentPath = path.substring(0,1);
         
         if(currentPath == "U")
